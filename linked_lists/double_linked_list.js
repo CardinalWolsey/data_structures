@@ -1,3 +1,6 @@
+//doubly linked list with queue implementation
+//TODO: write tests for these constructors and methods
+
 function DoubleNode(value, next, previous) {
   this.value = value;
   this.next = next;
@@ -202,4 +205,4 @@ function Queue() {
 var myQueue = new Queue();
 myQueue.enqueue(8);
 
-//TODO:won't enqueue after completely dequeued
+//TODO:nwon't enqueue after completely dequeued ... fix it.

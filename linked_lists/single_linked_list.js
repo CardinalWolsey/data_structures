@@ -1,3 +1,6 @@
+//singly linked list with stack implementation
+//TODO: write tests for these constructors and methods
+
 var Node = function(value, next) {
   this.value = value;
   this.next = next;
@@ -198,19 +201,6 @@ function Stack() {
 
 
 var stack = new Stack();
-// stack.push(1);
-// stack.push(2);
-// stack.push(4);
-// console.log(stack.peek()); //4
-// stack.pop();
-// console.log(stack.peek()); //2
-// stack.pop();
-// stack.pop();
-// console.log(stack.peek()); //null
-// console.log(stack);
-
 
 var array = [2, 2, 2, 2, 3, 3, 2, 5];
 var one = new LinkedList(array);
-
-// console.log(one);
